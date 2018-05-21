@@ -53,4 +53,4 @@ const shoppingCentre = {
 console.log(shoppingCentre['chineseRestaurant']['details'].menu[0]['ingredients'][2]['nutrients'][1]['dailyPercentage'])
 
 // Prototype Methods
-// Statis Methods - Static methods are called without instantiating their class and cannot be called through a class instance (similar to class method)
+// Static Methods - Static methods are called without instantiating their class and cannot be called through a class instance (similar to class method)

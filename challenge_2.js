@@ -29,21 +29,6 @@ function generateDeck() {
 const deck1 = generateDeck()
 console.log(deck1)
 
-/* Explanation of how arr.sort() work in JS
-arr.sort([compareFunction])
-
-function compare(a, b) {
-  if (a is less than b by some ordering criterion) {
-    return -1;
-  }
-  if (a is greater than b by the ordering criterion) {
-    return 1;
-  }
-  // a must be equal to b
-  return 0;
-}
-*/
-
 // Loop through deck to find the first heart
 
 let flippedDeck = []
