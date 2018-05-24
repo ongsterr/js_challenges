@@ -10,7 +10,7 @@ This repository is a compilation of all the JavaScript challenges and exercises 
 
 ### **Challenge 2**
 
-**Challenge**:
+**Challenge**:\
 We have a deck of cards and we want to flip cards (loop a card flipping function) until we get a Heart, how could we write that in JavaScript?\
 Hints: Use the `While` loop, you will need a couple of `Math.` functions.
 
@@ -46,3 +46,35 @@ Hints: Use the `While` loop, you will need a couple of `Math.` functions.
         (a, b) => 0.5 - Math.random() 
     )
     ```
+
+### **Challenge 3**
+
+**Challenge**:\
+The morning challenge is to convert a given number into a roman numeral. All roman numerals should be provided in upper-case.
+A starting point could be:
+```js
+function convertToRomanNumeral(num) {
+ return num;
+}
+convertToRomanNumeral(22);
+```
+
+### **Challenge 4**
+Write a JS function that converts an rgb colour code to a hex code… and do the same in reverse.
+
+### **Challenge 5**
+
+**Challenge**:\
+*Atomic Blonde Number*:
+A number is an atomic blonde number if the sum and product of its digits are equal.
+For example, 123 is an atomic blonde number, as the sum of its digits (1+2+3) is 6, which is equal to the product of its digits (1*2*3).
+
+Write a program to check if a number is an atomic blonde number or not.
+```
+For example:
+Input: 1412
+Output: true
+
+Input: 247
+Output: false
+```
