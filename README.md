@@ -78,3 +78,17 @@ Output: true
 Input: 247
 Output: false
 ```
+
+### **Challenge 6**
+Given a sequence of numbers as an input, create a program to predict the next number in the sequence.
+For Example:
+```
+input: 1 4 9 16
+output: 25
+
+input: 4 8 12 16 20
+output: 24
+
+input: 10 29 66 127
+output: 218
+```
